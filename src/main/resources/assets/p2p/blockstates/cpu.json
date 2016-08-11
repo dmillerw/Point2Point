@@ -1,0 +1,23 @@
+{
+  "forge_marker": 1,
+  "defaults": {
+    "model": "minecraft:cube_top",
+    "textures": {
+      "top": "p2p:blocks/cpu_top_on",
+      "side": "p2p:blocks/cpu_side"
+    }
+  },
+  "variants": {
+  "inventory": [
+    {}
+  ],
+  "error": {
+    "false": {},
+    "true": {
+      "textures": {
+        "top": "circuit:blocks/cpu_top_err"
+      }
+    }
+  }
+}
+}
